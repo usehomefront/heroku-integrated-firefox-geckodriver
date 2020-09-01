@@ -50,7 +50,7 @@ FILE_NAME_GECKODRIVER=${ARCHIVE_NAME_GECKODRIVER}-v${VERSION_GECKODRIVER}-${PLAT
 FILE_NAME_BUSTER=buster_captcha_solver_for_humans.xpi
 BUILDPACK_FIREFOX_PACKAGE="https://download.mozilla.org/?product=firefox-${VERSION_FIREFOX}-SSL&os=${PLATFORM}&lang=${LANG}"
 BUILDPACK_GECKODRIVER_PACKAGE="https://github.com/mozilla/geckodriver/releases/download/v${VERSION_GECKODRIVER}/${FILE_NAME_GECKODRIVER}"
-BUSTER_ADDON="https://addons.mozilla.org/firefox/downloads/file/3590337/buster_captcha_solver_for_humans-${VERSION_BUSTER}-an+fx.xpi"
+BUSTER_ADDON="https://usehomefrontproduction.blob.core.windows.net/usehomefront-assets/addons/buster_captcha_solver_for_humans-1.0.1-an+fx.xpi"
 
 
 if [ ! -f $CACHE_DIR/PURGED_CACHE_V1 ]; then
